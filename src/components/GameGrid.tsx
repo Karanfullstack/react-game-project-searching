@@ -15,6 +15,7 @@ interface GameFetchProps {
 const GameGrid = () => {
 	const [games, setGames] = useState<Game[]>([]);
 	const [errors, setErrors] = useState("");
+ // TODO NEED TO BE IMPLEMENTED CUSTOM ERROR COMPOENT
 
 	console.log(games);
 	useEffect(() => {
